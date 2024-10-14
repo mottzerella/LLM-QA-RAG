@@ -32,10 +32,10 @@ LANGCHAIN_API_KEY = os.getenv('LANGCHAIN_API_KEY')
 #login(token=TOKEN)
 
 #os.environ['token'] = TOKEN
-os.environ['LANGCHAIN_API_KEY'] = LANGCHAIN_API_KEY
-os.environ['LLAMA_CLOUD_API_KEY'] = LLAMA_CLOUD_API_KEY
-os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
-os.environ['PINECONE_API_KEY'] = PINECONE_API_KEY
+os.environ['LANGCHAIN_API_KEY'] = st.secrets['LANGCHAIN_API_KEY']
+os.environ['LLAMA_CLOUD_API_KEY'] = st.secrets['LLAMA_CLOUD_API_KEY']
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
+os.environ['PINECONE_API_KEY'] = st.secrets['PINECONE_API_KEY']
 
 # LLM
 local_llm = 'meta-llama/Meta-Llama-3.1-70B-Instruct'
