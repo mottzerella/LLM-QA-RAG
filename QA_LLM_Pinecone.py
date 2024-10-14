@@ -17,7 +17,7 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
 from dotenv import load_dotenv, find_dotenv
 
-load_dotenv('.env')
+load_dotenv(find_dotenv(), override=True)
 
 OPENAI_API_KEY= os.getenv('OPENAI_API_KEY')
 
