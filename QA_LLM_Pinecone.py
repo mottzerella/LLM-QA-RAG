@@ -28,8 +28,8 @@ LLAMA_CLOUD_API_KEY = os.getenv('LLAMA_CLOUD_API_KEY')
 LANGCHAIN_API_KEY = os.getenv('LANGCHAIN_API_KEY')
 
 # Huggingface Login Creds
-TOKEN = os.getenv('TOKEN')
-login(token= TOKEN )
+#TOKEN = os.getenv('TOKEN')
+#login(token=TOKEN)
 
 os.environ['token'] = TOKEN
 os.environ['LANGCHAIN_API_KEY'] = LANGCHAIN_API_KEY
