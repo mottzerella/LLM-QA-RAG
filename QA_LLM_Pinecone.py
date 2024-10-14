@@ -323,7 +323,7 @@ if __name__ == "__main__":
     import pinecone
     pc = pinecone.Pinecone()
 
-    st.image('/Users/mottzerella/Documents/Coding_Practice/ztm_milestone_projects/heart_disease_project/QA_LLM_APP/Project - Streamlit Front-End for Question-Answering App/img.png')
+    st.image('img.png')
     st.subheader('LLM Question-Answering Application 🤖')
     with st.sidebar:
         # text_input for the OpenAI API key (alternative to python-dotenv and .env)
