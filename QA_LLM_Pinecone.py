@@ -31,7 +31,7 @@ LANGCHAIN_API_KEY = os.getenv('LANGCHAIN_API_KEY')
 #TOKEN = os.getenv('TOKEN')
 #login(token=TOKEN)
 
-os.environ['token'] = TOKEN
+#os.environ['token'] = TOKEN
 os.environ['LANGCHAIN_API_KEY'] = LANGCHAIN_API_KEY
 os.environ['LLAMA_CLOUD_API_KEY'] = LLAMA_CLOUD_API_KEY
 os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
